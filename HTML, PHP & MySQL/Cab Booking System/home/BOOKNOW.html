@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header {
+    background-color: #f1f1f1;
+    padding: 5px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body  background="C:\Users\Nishant Kumar\Documents\Yellow_cabs_03.jpg">
+
+<div class="header">
+  <h1>CHECK AVAILABILITY</h1>
+</div>
+
+<div class="topnav">
+  <a href="ABOUT.html">About Us</a>
+  <a href="BOOKNOW.html">Book Now</a>
+  <a href="C:\Users\Nishant Kumar\Desktop\signup\signup.html">Register</a>
+</div>
+
+<form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="C:\Users\Nishant Kumar\Documents\2.gif" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+	<h1 style="text-align:center; font-size:160%; font-family:verdana; color:white">Your everyday travel partner</h1>
+	<p style="text-align:center; font-size:160%; font-family:courier; color:black">AC Cabs for point to point travel</p>
+    <label style="font-family:verdana; color:yellow"><b>Pickup</b></label>
+    <input type="text" placeholder="Current Location" name="uname" required>
+
+    <label style="font-family:verdana; color:yellow"><b>Drop</b></label>
+    <input type="text" placeholder="Enter drop for ride estimate" name="psw" required>
+	
+	<label style="font-family:verdana; color:yellow"><b>When</b></label>
+    <input type="text" placeholder="Now" name="psw" required>
+        
+    <button type="submit" formaction="C:\Users\Nishant Kumar\Desktop\signup\book.html">Search Cabs</button>
+  </div>
+  
+</form>
+
+</body>
+</html>

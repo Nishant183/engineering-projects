@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PICK-UP LOCATION</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style1.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo1.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="layout.css"  >
+<link type="text/css" rel="stylesheet" href="exp.css"  >
+<script type="text/javascript" src="complete_address.js"></script>
+<script type="text/javascript" src="validate_signup2.js"></script>
+</head>
+<body>
+<body background = "su.jpg">
+<header>
+<div class="container">
+<div id="branding">
+<h1> <span class="highlight">TAKUSHI</span> cab booking</h1>
+</div>
+<nav>
+				<ul>
+				<li><a href="C:\Users\Nishant Kumar\Desktop\home\TAXI.html">Home</a></li>
+				<li><a href="C:\Users\Nishant Kumar\Desktop\home\BOOKNOW.html">Login</a></li>
+				</ul>
+			</nav>
+
+
+
+</header>
+<div class="container">
+			<!-- freshdesignweb top bar -->
+            <div class="freshdesignweb-top">
+                <div class="clr"></div>
+            </div><!--/ freshdesignweb top bar -->      
+      <div  class="form">
+    		<form id="contactform_2" name="contactform_2" action="signup_complete.html"> 
+    			
+				<p class="contact"><label for="name">Pick-up Address Details*</label>&nbsp; &nbsp; <span id="message1" style="color:red"></span></p>
+				<table style='table-layout: fixed; width: 415px;' >
+				  <tr>
+					<th><input  id="bill_bname" name="bill_bname" placeholder="Building*" required="" tabindex="1" type="texttype" style="width:190px";> </th>
+					<th><input  id="bill_slname" name="bill_slname" placeholder="Street/Lane*" required="" tabindex="1" type="texttype" style="width:190px";></th>
+				  </tr>
+				  <tr>
+					<th><input  id="bill_land" name="bill_land" placeholder="Landmark" tabindex="1" type="texttype" style="width:400px";> </th>
+				  </tr>
+				  <tr>
+					<th><input  id="bill_city" name="bill_city" placeholder="City*" required="" tabindex="1" type="texttype" style="width:190px";> </th>
+					<th><input  id="bill_post" name="bill_post" placeholder="Postal Code*" required="" tabindex="1" type="texttype" style="width:190px";></th>
+				  </tr>
+				  <tr>
+					<th><input  id="bill_state"  name="bill_state"placeholder="State*" required="" tabindex="1" type="texttype" style="width:400px";> </th>
+				  </tr>
+				</table>				
+				
+				<p class="contact"><label for="name">Dropping Address Details*</label> &nbsp; &nbsp; <span id="message2" style="color:red"></span></p>
+								 
+				<table style='table-layout: fixed; width: 415px;' >
+				  <tr>
+					<th><input  id="ship_bname" name="ship_bname" placeholder="Building*" required="" tabindex="1" type="texttype" style="width:190px";> </th>
+					<th><input  id="ship_slname" name="ship_slname" placeholder="Street/Lane*" required="" tabindex="1" type="texttype" style="width:190px";></th>
+				  </tr>
+				  <tr>
+					<th><input  id="ship_land" name="ship_land" placeholder="Landmark" tabindex="1" type="texttype" style="width:400px";> </th>
+				  </tr>
+				  <tr>
+					<th><input  id="ship_city" name="ship_city" placeholder="City*" required="" tabindex="1" type="texttype" style="width:190px";> </th>
+					<th><input  id="ship_post" name="ship_post" placeholder="Postal Code*" required="" tabindex="1" type="texttype" style="width:190px";></th>
+				  </tr>
+				  <tr>
+					<th><input  id="ship_state" name="ship_state" placeholder="State*" required="" tabindex="1" type="texttype" style="width:400px";> </th>
+				  </tr>
+				</table>
+				
+			<input class="buttom" name="reset" id="reset" tabindex="5" value="Clear" type="reset">		
+			<input class="buttom" name="submit" id="submit" tabindex="5" value="Pick me up" type="submit" onclick="return (validate_signup2())">		
+   </form> 
+</div>      
+</div>
+<footer>
+<p> TAKUSHI,Copyright &copy; 2017</p>
+</footer>
+
+</body>
+</html>
